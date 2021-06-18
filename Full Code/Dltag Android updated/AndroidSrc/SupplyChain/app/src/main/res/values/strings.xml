@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DlTagScanner</string>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="enter_ip">Enter Ip</string>
+    <string name="distributor">Distributor</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="Supplier">Supplier</string>
+</resources>

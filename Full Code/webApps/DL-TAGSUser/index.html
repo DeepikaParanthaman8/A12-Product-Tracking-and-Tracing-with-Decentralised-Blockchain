@@ -1,0 +1,42 @@
+                                                                                                                                 <!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple MJPEG Streamer on Tornado</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js" ></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-checkbox.min.js"></script>
+</head>
+
+<body background="/image/pic.jpg">
+    <br>
+   <center><h1 class="title">ANIMAL NAME</h1>
+    <div class="center">
+        <p>Live surveillance from fence </p>
+    </div>
+    <div class="container-fluid">
+        <div class="row" align="center">
+  <label style="color:navy;">Temper :  20</label>
+  <label style="color: navy;">Temper : 30</label>
+            <img id="videofield" class="video" src="\video_feed?fd=false">
+ 
+            <br><br>
+
+
+            <div class="btn-group">
+                <a href="#" class="btn btn-primary my" id="low">Resolution low</a>
+                <a href="#" class="btn btn-primary my" id="norm">Resolution medium</a>
+                <a href="#" class="btn btn-primary my" id="hi">Resolution hi</a>
+          <!--  </div>
+            <div class="row" align="center">
+                <p>Click the button to change size of streamed picture, enable face detect? <input name="agree" type="checkbox"></p>
+            </div>-->
+        </div>
+    </div>
+    </div></center> 
+</body>
+</html>

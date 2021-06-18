@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ManufactureRegister</servlet-name>
+		<servlet-class>com.Controler.ManufactureRegister</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ManifactureLogin</servlet-name>
+		<servlet-class>com.Controler.ManifactureLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>SupplierId</servlet-name>
+		<servlet-class>com.Controler.SupplierId</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ManufactureRequest</servlet-name>
+		<servlet-class>com.Controler.ManufactureRequest</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ManufactureAddProduct</servlet-name>
+		<servlet-class>com.Controler.ManufactureAddProduct</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManifactureProduct</servlet-name>
+    <servlet-class>com.Controler.ManifactureProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.Controler.Logout</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.distributor.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.distributor.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductDetails</servlet-name>
+    <servlet-class>com.distributor.ProductDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DistributorRequest</servlet-name>
+    <servlet-class>com.distributor.DistributorRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManActions</servlet-name>
+    <servlet-class>com.distributor.ManActions</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DisPrice</servlet-name>
+    <servlet-class>com.distributor.DisPrice</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManufactureRequestA</servlet-name>
+    <servlet-class>com.Controler.ManufactureRequestA</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadContract</servlet-name>
+    <servlet-class>Blockchainretrieve.ReadContract</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DistributorContract</servlet-name>
+    <servlet-class>com.distributor.DistributorContract</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Shipment</servlet-name>
+    <servlet-class>com.Controler.Shipment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DisActions</servlet-name>
+    <servlet-class>com.distributor.DisActions</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FackProduct</servlet-name>
+    <servlet-class>com.distributor.FackProduct</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllDetails</servlet-name>
+    <servlet-class>com.Controler.GetAllDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QrCodeScanner</servlet-name>
+    <servlet-class>com.app.QrCodeScanner</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QrCode</servlet-name>
+    <servlet-class>com.app.QrCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetQrDetails</servlet-name>
+    <servlet-class>com.app.GetQrDetails</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<listener>
+		<listener-class>com.Dao.DBconnection</listener-class>
+	</listener>
+
+	<servlet-mapping>
+		<servlet-name>ManufactureRegister</servlet-name>
+		<url-pattern>/ManufactureRegister</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManifactureLogin</servlet-name>
+		<url-pattern>/ManifactureLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SupplierId</servlet-name>
+		<url-pattern>/SupplierId</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManufactureRequest</servlet-name>
+		<url-pattern>/ManufactureRequest</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManufactureAddProduct</servlet-name>
+		<url-pattern>/ManufactureAddProduct</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManifactureProduct</servlet-name>
+    <url-pattern>/ManifactureProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductDetails</servlet-name>
+    <url-pattern>/ProductDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DistributorRequest</servlet-name>
+    <url-pattern>/DistributorRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManActions</servlet-name>
+    <url-pattern>/ManActions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisPrice</servlet-name>
+    <url-pattern>/DisPrice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManufactureRequestA</servlet-name>
+    <url-pattern>/ManufactureRequestA</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadContract</servlet-name>
+    <url-pattern>/ReadContract</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DistributorContract</servlet-name>
+    <url-pattern>/DistributorContract</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shipment</servlet-name>
+    <url-pattern>/Shipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisActions</servlet-name>
+    <url-pattern>/DisActions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FackProduct</servlet-name>
+    <url-pattern>/FackProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllDetails</servlet-name>
+    <url-pattern>/GetAllDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QrCodeScanner</servlet-name>
+    <url-pattern>/QrCodeScanner</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QrCode</servlet-name>
+    <url-pattern>/QrCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetQrDetails</servlet-name>
+    <url-pattern>/GetQrDetails</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

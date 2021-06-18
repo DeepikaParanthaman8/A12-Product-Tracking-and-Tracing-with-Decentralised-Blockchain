@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+	<constant name="struts.devMode" value="false"></constant>
+		<package name="default" extends="struts-default" namespace="/">
+			
+			<action name="banklogin" class="com.banklogic.BankLogin">
+	            <result name="input">index.jsp</result>
+	            <result name="success">admin.jsp</result>
+	            <result name="error">index.jsp</result>
+			</action>
+			
+			<action name="newholder" class="com.banklogic.BankLogin" method="setNewHolder">
+				<result name="input">admin.jsp</result>
+	            <result name="success">admin.jsp</result>
+	            <result name="error">admin.jsp</result>
+			</action>
+			
+			<action name="firstformedit" class="com.banklogic.BankLogin" method="updateAccountHold">
+				<result name="input">admin.jsp</result>
+	            <result name="success">admin.jsp</result>
+	            <result name="error">admin.jsp</result>
+			</action>
+			
+			<action name="callpincodestate" class="com.banklogic.AjaxSource">
+		    	<result type="stream">
+			        <param name="contentType">text/html</param>
+			        <param name="inputName">inputstream</param>
+		    	</result>
+			</action>
+			
+			<action name="editaccountholder" class="com.banklogic.AjaxSource">
+		    	<result type="stream">
+			        <param name="contentType">text/html</param>
+			        <param name="inputName">inputstream</param>
+		    	</result>
+			</action>
+			
+			<action name="logout" class="com.banklogic.BankLogin" method="logOut">
+		    	<result name="success">index.jsp</result>
+			</action>
+			
+			<action name="addamount" class="com.banklogic.BankLogin" method="addAmount">
+		    	<result name="success">addamount.jsp</result>
+			</action>
+			
+			<action name="toadminpage" class="com.banklogic.BankLogin" method="toAdminPage">
+		    	<result name="success">admin.jsp</result>
+			</action>				
+			
+			<action name="addamountaccountholder" class="com.banklogic.AjaxSource">
+		    	<result type="stream">
+			        <param name="contentType">text/html</param>
+			        <param name="inputName">inputstream</param>
+		    	</result>
+			</action>
+			
+			<action name="addamountholder" class="com.banklogic.BankLogin" method="addAcctAmountHolder">
+				<result name="input">addamount.jsp</result>
+	            <result name="success">admin.jsp</result>
+	            <result name="error">addamount.jsp</result>
+			</action>
+			
+			<action name="holderpayment" class="com.banklogic.UserPaymentProc">
+				<result name="redirect" type="redirect">${url}</result>
+	            <result name="error">setuserpayment.jsp</result>
+			</action>			
+			
+		</package>
+</struts>    

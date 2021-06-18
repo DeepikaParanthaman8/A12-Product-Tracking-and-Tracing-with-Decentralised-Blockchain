@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DL-tagsSupplyChain"
+  id="myeclipse.1569578143678"
+  context-root="/DL-tagsSupplyChain"
+  j2ee-spec="5.0"
+  archive="DL-tagsSupplyChain.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
